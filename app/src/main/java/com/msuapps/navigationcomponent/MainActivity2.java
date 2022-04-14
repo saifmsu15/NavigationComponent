@@ -17,7 +17,10 @@ public class MainActivity2 extends AppCompatActivity {
         textView = findViewById(R.id.txtVw_github);
 
         if (x < 15) {
-            textView.setText("False");
+            textView.setText("True");
+        }
+        else if(x < 20) {
+            textView.setText("null");
         }
         else {
             textView.setText("GitHub True");
